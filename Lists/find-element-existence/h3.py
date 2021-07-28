@@ -10,7 +10,8 @@ for i in range(n):
             arr[j]=arr[i]
             arr[i]=c
 print(arr)
-if arr!=k:
-    print('k is in arr')
-else:
-    print('k is not in arr')
+for i in arr:
+    if i==k:
+        print('k is an arr ')
+    else:
+        print('k is not in arr')
