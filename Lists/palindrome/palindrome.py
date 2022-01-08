@@ -4,13 +4,12 @@ l=[]
 for i in range(n):
     f=int(input())
     k.append(f)
-
 for i in range(n-1,-1,-1):
     l.append(k[i])
-print(l)
-# k.reverse()
+if (k==l):
+    print('yes')
+else:
+    print('no')
+# l=[1,2,3,5,8,4]
+# l.sort()
 # print(l)
-# print ("List index-value are : ")
-# for i in range(len(k)):
-#     print (i, end = " ")
-#     print (k[i])
