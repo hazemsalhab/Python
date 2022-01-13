@@ -18,10 +18,9 @@ for i in range(n_min):
     l3.append(l2[i])
 
 if n1>n2:
-    for i in range(n2, n1):
-        l3.append(l1[i])
+    l3 = l3 + l1[n2:n1]
+
 elif n2>n1:
-    for i in range(n1, n2):
-        l3.append(l2[i])
+    l3 += l2[n1:n2]
 
 print(l3)
